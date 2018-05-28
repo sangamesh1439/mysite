@@ -6,7 +6,7 @@ body {
 
 #shop-name
 {
-  text-align: center
+  text-align: center;  
 }
 
 h2 {
@@ -28,7 +28,7 @@ h4 {
 .jumbotron {
   background-color: #2c3e50;  
   color: #fff;  
-  font-family: Montserrat, sans-serif;  
+  font-family: Montserrat, sans-serif;    
 }
 
 .container-fluid {
@@ -207,8 +207,7 @@ footer .glyphicon {
 }
 
 #home-image{
-  min-width: 100%;          
-  margin:0 -10px;    
+  min-width: 100%;            
 }
 
 
