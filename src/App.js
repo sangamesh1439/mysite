@@ -23,7 +23,7 @@ const App = () => (
           <a className="navbar-brand" href="#myPage">Somawar Computers</a>
         </div>
         <div className="collapse navbar-collapse" id="myNavbar">
-          <ul className="nav navbar-nav navbar-right">            
+          <ul className="nav navbar-nav">            
             <li><a href="#services">SERVICES</a></li>            
             <li><a href="#about">ABOUT</a></li>
             <li><a href="#contact">CONTACT</a></li>

@@ -1,12 +1,13 @@
 body {
-  font: 400 15px Lato, sans-serif;
+  font: 400 15px Arial;    
   line-height: 1.8;
   color: #818181;
 }
 
 #shop-name
 {
-  text-align: center;  
+  text-align: center;    
+  position: relative;  
 }
 
 h2 {
@@ -18,17 +19,20 @@ h2 {
 }
 
 h4 {
-  font-size: 19px;
+  font-size: 20px;
   line-height: 1.375em;
-  color: #303030;
+  color: #2f3c4f;;
   font-weight: 400;
   margin-bottom: 30px;
 }
 
 .jumbotron {
   background-color: #2c3e50;  
-  color: #fff;  
-  font-family: Montserrat, sans-serif;    
+  opacity: 0.9;
+  color: #fff;    
+  border-radius: 50px;
+  width: 100%;
+  font-family: Arial;    
 }
 
 .container-fluid {
@@ -44,10 +48,16 @@ h4 {
   font-size: 50px;  
 }
 
-.service-logos{
-  max-width: 80px;    
-  min-width: 80px;    
+.about-years{  
+  min-width: 200px;
+  min-height: 200px;  
 }
+
+.service-logos{
+  width: 250px;      
+  height: 200px;    
+}
+
 
 .logo {
   color: #2c3e50;
@@ -143,22 +153,46 @@ h4 {
   background-color: rgba(44,62,80,0.9);
   z-index: 9999;
   border: 0;
+  height: 100px;
   font-size: 12px !important;
   line-height: 1.42857143 !important;
   letter-spacing: 4px;
   border-radius: 0;
-  font-family: Montserrat, sans-serif;
+  font-family: Arial;      
 }
 
 .navbar li a,
 .navbar .navbar-brand {
   color: #fff !important;
+  background-color:transparent;
 }
 
-.navbar-nav li a:hover,
-.navbar-nav li.active a {
-  color: #2c3e50 !important;
-  background-color: #fff !important;
+.navbar-header
+{
+  margin: 2%;
+}
+
+.navbar-nav
+{ 
+ margin: 2%;
+ padding-left: 5%;
+}
+.navbar-nav li
+{
+  background-color:transparent;
+}
+
+.navbar-nav li a:hover
+{  
+  border-bottom: 5px solid #f6c82d;
+  background-color:transparent;
+}
+
+.navbar li a:active,
+.navbar-nav li.selected a
+{
+  background-color:transparent !important;
+  border-bottom: 5px solid #38ad47;
 }
 
 .navbar-default .navbar-toggle {
@@ -207,7 +241,15 @@ footer .glyphicon {
 }
 
 #home-image{
-  min-width: 100%;            
+  min-width: 100%;              
+}
+
+#home-text
+{  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
 }
 
 
